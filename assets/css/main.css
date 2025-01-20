@@ -212,6 +212,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1rem;
+		margin: 0; padding: 0;
 	}
 
 	h4 {
@@ -1622,6 +1623,37 @@ input, select, textarea {
 			}
 
 		}
+		
+		
+		.degree-info {
+			display: flex;
+			align-items: center; /* Centers the items vertically */
+		}
+
+		.text-container {
+			flex-grow: 1; /* Allows the text container to take up available space */
+		}
+
+		.degree-logo {
+			width: 150px; /* Change this value as needed */
+			height: auto; /* Maintain aspect ratio */
+			margin-left: 1px; /* Adds space between text and the logo */
+		}
+		
+		
+		.experience-info {
+			display: flex;
+			align-items: center; /* Centers the items vertically */
+		}
+
+
+		
+		.experience-logo {
+			width: 150px; /* Change this value as needed */
+			height: auto; /* Maintain aspect ratio */
+			margin-left: 1px; /* Adds space between text and the logo */
+		}
+		
 
 /* Footer */
 
