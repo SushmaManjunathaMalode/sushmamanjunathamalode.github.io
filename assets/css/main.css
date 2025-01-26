@@ -578,6 +578,79 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
+
+
+
+
+
+
+
+
+
+	.placecard-container {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap; /* Allow multiple cards to wrap */
+		gap: 20px; /* Space between cards */
+		padding: 20px; /* Padding around the content */
+	}
+
+	.placecard {
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		overflow: hidden;
+		width: 100%; /* Full width on small screens */
+		max-width: 300px; /* Maximum width for larger screens */
+		text-align: center;
+		cursor: pointer;
+		transition: transform 0.2s;
+	}
+
+	.placecard:hover {
+		transform: scale(1.05);
+
+		border-width: 5px; /* Change border width to highlight */
+	}
+
+	.placecard img {
+		width: 100%;
+		height: auto; /* Maintain aspect ratio */
+		object-fit: cover; /* Cover the allotted space */
+		border-bottom: 1px solid #ccc;
+	}
+
+	.info {
+		display: none;
+		padding: 10px;
+
+	}
+
+	@media (max-width: 768px) {
+		.placecard {
+			/* Adjust max-width or other properties for tablets and smaller screens */
+			max-width: 90%; /* Take up more space on smaller devices */
+		}
+	}
+
+	@media (max-width: 480px) {
+		.placecard {
+			/* Further adjustments for mobile devices */
+			max-width: 100%; /* Full width on mobile */
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
 /* Box */
 
 	.box {

@@ -10,6 +10,7 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body class="is-preload">
 
@@ -30,9 +31,9 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#Education">Qualifications and Experience</a></li>
-								<li><a href="#Skills">Skills</a></li>
-								<li><a href="#Projects">Projects</a></li>
+								<li><a href="#education_exp">Qualifications and Experience</a></li>
+								<li><a href="#works">Works</a></li>
+								<li><a href="#skills">Skills</a></li>
 								<li><a href="#CV">CV</a></li>
 							</ul>
 						</nav>
@@ -57,7 +58,7 @@
 
 
 
-							<article id="Education">
+							<article id="education_exp">
 							<h2 class="major">Experience</h2>
 									<div class="experience-info">
 										<div class="text-container">
@@ -85,7 +86,6 @@
 										<div class="text-container">
 											<span class="month">2017 - 2019</span>
 											<h3>Secondary Education</h3>
-											<span>Science</span><br>
 											<span><a href="https://www.presidencypucollege.in/" title="Presidency" target="_blank">Presidency College</a></span>
 											<p>Bengaluru, India</p>
 										</div>
@@ -104,20 +104,39 @@
 									
                                 </article>
 
+								<article id="works">
+								<h2 class="major">Works</h2>
+								<div class="placecard-container">
+								<div class="placecard" onclick="toggleInfo(this)">
+									<img src="images/caw.gif" alt="Place Image">
+									<div class="info">Deployed the CloudWatch agent and configured an alarms dashboard to facilitate the effective monitoring of server performance and system health metrics.</div>
+								</div>
 
 
+								<!-- Add more place cards as needed -->
+								<div class="placecard" onclick="toggleInfo(this)">
+									<img src="images/pga.gif" alt="Place Image">
+									<div class="info"> Bash script to automate the management of password expiration, facilitating timely updates and adherence to security compliance standards.</div>
+								</div>
 
+								<div class="placecard" onclick="toggleInfo(this)">
+									<img src="images/ospatchings.gif" alt="Place Image">
+									<div class="info">Executed scheduled operating system patching and Amazon Machine Image (AMI) rotation to maintain system security and ensure they are current with the latest updates.</div>
+								</div>
 
+								<div class="placecard" onclick="toggleInfo(this)">
+									<img src="images/servertags.gif" alt="Place Image">
+									<div class="info">Implemented mandatory tagging protocols for servers to enhance resource identification and management efficiency.</div>
+								</div>
 
+								<div class="placecard" onclick="toggleInfo(this)">
+									<img src="images/enhancesecuritys.gif" alt="Place Image">
+									<div class="info">Deployed essential security software on all servers to improve system security and ensure compliance with established security standards.</div>
+								</div>
+								</div>
+								</article>
 
-
-
-
-<article id="Skills">
-<h1>!!!Work in Progress!!!</h1>
-</article>
-
-<article id="Projects">
+<article id="skills">
 <h1>!!!Work in Progress!!!</h1>
 </article>
 
@@ -145,6 +164,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/toggle.js"></script>
+			<script type="module" src="script.js"></script>
 
 	</body>
 </html>
