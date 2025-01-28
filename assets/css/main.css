@@ -1380,6 +1380,8 @@ input, select, textarea {
     transform: translate(-50%, -50%) rotate(-90deg);
     width: 220px;
     height: 160px;
+	background: transparent; /* Help to enforce this style */
+
 }
 
 .progress-bar {
