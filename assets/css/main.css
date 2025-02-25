@@ -1590,6 +1590,7 @@ padding: 3rem 1.5rem 0.5rem 1.5rem ;
 .degree-info {
 display: flex;
 align-items: center;
+margin-bottom: 20px;
 }
 .text-container {
 flex-grow: 1;
@@ -1602,6 +1603,7 @@ margin-left: 1px;
 .experience-info {
 display: flex;
 align-items: center;
+margin-bottom: 20px;
 }
 .experience-logo {
 width: 150px;
